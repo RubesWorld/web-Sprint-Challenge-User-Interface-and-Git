@@ -216,3 +216,22 @@ footer nav a {
     padding: 0 2% 0 2%;
     margin-bottom: 20px;
 }
+
+.middle-content-about{
+    display: flex;
+}
+div.boxes-about{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-box{
+    width: 45%;
+    margin-bottom: 2%;
+    margin: 0 2%;
+    padding: 2% 0;
+}
+
+.about-box button{
+    margin: 1% 0;
+}
