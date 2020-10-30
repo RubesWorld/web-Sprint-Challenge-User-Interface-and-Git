@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	/* border: 0; */
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -40,9 +40,10 @@ body {
 }
 
 header{
-    height: 15vh;
+    height: 12vh;
     width: 800px;
     margin: 0 auto;
+    padding-top:1%
 }
 
 .head-container{
@@ -78,10 +79,6 @@ table {
 	border-spacing: 0;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -111,6 +108,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-top: 15px;
     border-bottom: 1px dashed black;
 }
 
@@ -217,9 +215,10 @@ footer nav a {
     margin-bottom: 20px;
 }
 
-.middle-content-about{
-    display: flex;
+.middle-content-about {
+    margin-bottom: 20px;
 }
+
 div.boxes-about{
     display: flex;
     flex-wrap: wrap;
@@ -227,11 +226,25 @@ div.boxes-about{
 
 .about-box{
     width: 45%;
-    margin-bottom: 2%;
-    margin: 0 2%;
+    margin-bottom: 1%;
+    margin: 0 5% 2% 0;
     padding: 2% 0;
+    border-bottom: 1px dashed black;
+}
+
+.about-box h2{
+    margin-top: 1.5%;
 }
 
 .about-box button{
-    margin: 1% 0;
+    margin: 3% 0 2% 0;
+    color: black;
+    background-color: white;
+    border: 1.5px solid black;
+    padding: 2% 5%;
+    border-radius: 10% / 20%;
+}
+
+.bottom-content-about{
+    margin: 1% 2% 4% 2%;
 }
