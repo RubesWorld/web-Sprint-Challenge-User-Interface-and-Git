@@ -57,6 +57,10 @@ header{
     display: flex;
     margin: 3%
 }
+nav a{
+    text-decoration: none;
+    color: black;
+}
 
 ol, ul {
 	list-style: none;
@@ -204,4 +208,11 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About page css */
+
+.toppy{
+    padding: 0 2% 0 2%;
+    margin-bottom: 20px;
 }
